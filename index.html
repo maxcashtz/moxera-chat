@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moxera Chat</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: #fff;
+    }
+    header {
+      padding: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #30230a;
+    }
+    .logo { color: #f5c542; font-size: 24px; font-weight: bold; }
+    .hero {
+      text-align: center;
+      padding: 75px 20px 55px;
+    }
+    .hero h1 { font-size: 42px; margin-bottom: 15px; }
+    .gold { color: #f5c542; }
+    .hero p { color: #bbb; line-height: 1.7; }
+    .btn {
+      display: inline-block;
+      margin: 12px 5px;
+      padding: 14px 25px;
+      background: #f5c542;
+      color: #111;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .outline {
+      background: transparent;
+      color: #f5c542;
+      border: 1px solid #f5c542;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 18px;
+      padding: 25px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      padding: 25px;
+      background: #151515;
+      border: 1px solid #3a2d10;
+      border-radius: 12px;
+    }
+    .card h3 { color: #f5c542; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">✦ MOXERA CHAT</div>
+    <span class="gold">Karibu!</span>
+  </header>
+
+  <section class="hero">
+    <h1>Ungana na <span class="gold">Moxera Chat</span></h1>
+    <p>Jukwaa lako la mawasiliano, jumuiya na huduma za kidijitali.<br>
+    Karibu kwenye ulimwengu mpya wa mawasiliano.</p>
+    <a class="btn" href="#huduma">Anza Sasa</a>
+    <a class="btn outline" href="#kuhusu">Jifunze Zaidi</a>
+  </section>
+
+  <section class="features" id="huduma">
+    <div class="card">
+      <h3>💬 Chat</h3>
+      <p>Wasiliana na jumuiya yako sehemu moja.</p>
+    </div>
+    <div class="card">
+      <h3>👛 Wallet</h3>
+      <p>Eneo la huduma za akaunti na salio.</p>
+    </div>
+    <div class="card">
+      <h3>🔐 Akaunti</h3>
+      <p>Muundo wa kuanzia kwa huduma za wanachama.</p>
+    </div>
+  </section>
+
+  <footer id="kuhusu">
+    © 2026 Moxera Agencies. Haki zote zimehifadhiwa.
+  </footer>
+</body>
+</html>
